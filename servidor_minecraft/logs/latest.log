@@ -1,0 +1,90 @@
+[14Dec2025 00:00:20.492] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-15, y=155, z=-1454} but found not block entity block Block{minecraft:air} at location
+[14Dec2025 00:00:20.496] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=-15, y=155, z=-1454}
+[14Dec2025 00:00:26.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cattemci was killed by magic
+[14Dec2025 00:00:27.960] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Cattemci]
+[14Dec2025 00:00:27.960] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Cattemci]
+[14Dec2025 00:00:30.729] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 17997ms or 359 ticks behind
+[14Dec2025 00:00:55.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Leo___ has made the advancement [Monster Hunter]
+[14Dec2025 00:00:58.678] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12996ms or 259 ticks behind
+[14Dec2025 00:01:02.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Cattemci> nigga esto apesta
+[14Dec2025 00:01:25.028] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11396ms or 227 ticks behind
+[14Dec2025 00:01:34.205] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:walker but it was marked as removed already
+[14Dec2025 00:01:51.215] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11233ms or 224 ticks behind
+[14Dec2025 00:01:51.456] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	Index: 3
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon eventPlayerContainerEvent(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		2: NORMAL
+		3: ASM: class com.scarasol.sona.event.ManagerEventHandler onOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+		4: ASM: class net.miauczel.legendary_monsters.entity.OpenContainerEvent onContainerOpen(Lnet/minecraftforge/event/entity/player/PlayerContainerEvent$Open;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189)
+	at TRANSFORMER/sona@1.4.2/com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[14Dec2025 00:01:51.457] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@3190e38d, suppressing error
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.m_58903_()" because "blockEntity" is null
+	at com.scarasol.sona.manager.RotManager.containerOpen(RotManager.java:206) ~[Sona-1.20.1-forge-1.4.2.jar%23270!/:1.4.2]
+	at com.scarasol.sona.event.ManagerEventHandler.onOpen(ManagerEventHandler.java:189) ~[Sona-1.20.1-forge-1.4.2.jar%23270!/:1.4.2]
+	at com.scarasol.sona.event.__ManagerEventHandler_onOpen_Open.invoke(.dynamic) ~[Sona-1.20.1-forge-1.4.2.jar%23270!/:1.4.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_5893_(ServerPlayer.java:974) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.world.level.block.CraftingTableBlock.m_6227_(CraftingTableBlock.java:30) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23287!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[14Dec2025 00:02:08.432] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:walker but it was marked as removed already
+[14Dec2025 00:02:17.292] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11110ms or 222 ticks behind
+[14Dec2025 00:02:22.859] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-294, y=166, z=-1787}
+[14Dec2025 00:02:41.912] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9631ms or 192 ticks behind
+[14Dec2025 00:02:49.023] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-294, y=165, z=-1784}
+[14Dec2025 00:02:49.537] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-294, y=166, z=-1785}
+[14Dec2025 00:02:49.855] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-294, y=166, z=-1785}
+[14Dec2025 00:02:53.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cattemci fell from a high place
+[14Dec2025 00:02:53.290] [Server thread/INFO] [gravestone/]: The death ID of player Cattemci is 14621872-9992-43f6-8626-66be066f6b68
+[14Dec2025 00:02:53.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Leo___> no hay animales
+[14Dec2025 00:02:54.869] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Cattemci]
+[14Dec2025 00:02:54.869] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Cattemci]
